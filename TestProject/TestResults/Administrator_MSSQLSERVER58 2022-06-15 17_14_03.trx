@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="52627dfb-636a-46cc-b794-3ede6d085630" name="Administrator@MSSQLSERVER58 2022-06-15 17:14:03" runUser="MSSQLSERVER58\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="670aac0b-44b4-4398-a232-e850c712cf4f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestResults\Administrator_MSSQLSERVER58 2022-06-15 17_14_03" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" error="0" failed="10" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2022-06-15T17:14:03.9780000+02:00" queuing="2022-06-15T17:14:04.5420000+02:00" start="2022-06-15T17:14:04.6500000+02:00" finish="2022-06-15T17:14:05.3020000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCountRecentlyUpdated" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="835fcf42-c4e4-0713-b849-4d5884b2279c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5389405d-9e4d-4b0a-ab1c-b292dd31f48e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestCountRecentlyUpdated" />
+    </UnitTest>
+    <UnitTest name="TestConnectStrings" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="be0d102a-7184-65d5-8dd2-de29921697e7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8cf73888-9c81-4644-88ca-5f5048aa728d" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestConnectStrings" />
+    </UnitTest>
+    <UnitTest name="TestCountAllOccurances" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="3009f19e-263e-27e0-d0c2-cd31a07902bb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="62cad990-2a29-4703-8f79-d8ff84c36dae" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestCountAllOccurances" />
+    </UnitTest>
+    <UnitTest name="TestFindSum" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="42c2b0a6-af49-62cb-a464-8447e628eb45">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="10b1e456-a344-4324-8d7c-59bab08cfcd4" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindSum" />
+    </UnitTest>
+    <UnitTest name="TestFindMaxOccuranceString" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="da3014c5-bc44-5694-2408-17998c5ad050">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6cbda9df-d7eb-47a2-b957-3bf26b2789a6" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindMaxOccuranceString" />
+    </UnitTest>
+    <UnitTest name="TestCountUniqueStrings" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="bf9bd16e-399e-6b1a-dfb4-6c89b8067fb2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e53b135b-2c87-42ad-a9b4-e5d19e98a9f3" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestCountUniqueStrings" />
+    </UnitTest>
+    <UnitTest name="TestFindSumIfEmpty" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="ee47f47a-f3d6-5c50-424b-fbab9d085745">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="381c6be6-6fda-4213-b54c-67df3c23d331" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindSumIfEmpty" />
+    </UnitTest>
+    <UnitTest name="TestFindAvgValue" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="9bd1e0b2-c78d-eb28-806b-12f4126d3b3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b18e9be3-b12a-480c-b284-f7cf32d4008b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindAvgValue" />
+    </UnitTest>
+    <UnitTest name="TestFindOddEvenDiff" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="ea85e506-80c6-14a9-da2e-a9fc9df1208d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c613d766-1808-4f69-a66a-d179728dc796" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindOddEvenDiff" />
+    </UnitTest>
+    <UnitTest name="TestFindShortestString" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="981f7e3c-0e0c-6662-a872-5d7bbe332f7e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ae1f5fb6-2352-41a3-adcc-4215e44cadc4" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindShortestString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3009f19e-263e-27e0-d0c2-cd31a07902bb" executionId="62cad990-2a29-4703-8f79-d8ff84c36dae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42c2b0a6-af49-62cb-a464-8447e628eb45" executionId="10b1e456-a344-4324-8d7c-59bab08cfcd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="835fcf42-c4e4-0713-b849-4d5884b2279c" executionId="5389405d-9e4d-4b0a-ab1c-b292dd31f48e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="981f7e3c-0e0c-6662-a872-5d7bbe332f7e" executionId="ae1f5fb6-2352-41a3-adcc-4215e44cadc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bd1e0b2-c78d-eb28-806b-12f4126d3b3f" executionId="b18e9be3-b12a-480c-b284-f7cf32d4008b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be0d102a-7184-65d5-8dd2-de29921697e7" executionId="8cf73888-9c81-4644-88ca-5f5048aa728d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf9bd16e-399e-6b1a-dfb4-6c89b8067fb2" executionId="e53b135b-2c87-42ad-a9b4-e5d19e98a9f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da3014c5-bc44-5694-2408-17998c5ad050" executionId="6cbda9df-d7eb-47a2-b957-3bf26b2789a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea85e506-80c6-14a9-da2e-a9fc9df1208d" executionId="c613d766-1808-4f69-a66a-d179728dc796" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee47f47a-f3d6-5c50-424b-fbab9d085745" executionId="381c6be6-6fda-4213-b54c-67df3c23d331" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62cad990-2a29-4703-8f79-d8ff84c36dae" testId="3009f19e-263e-27e0-d0c2-cd31a07902bb" testName="TestCountAllOccurances" computerName="MSSQLSERVER58" duration="00:00:00.0499800" startTime="2022-06-15T17:14:04.7650000+02:00" endTime="2022-06-15T17:14:04.9690000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestCountAllOccurances threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestCountAllOccurances() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 137
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10b1e456-a344-4324-8d7c-59bab08cfcd4" testId="42c2b0a6-af49-62cb-a464-8447e628eb45" testName="TestFindSum" computerName="MSSQLSERVER58" duration="00:00:00.0083292" startTime="2022-06-15T17:14:04.9780000+02:00" endTime="2022-06-15T17:14:04.9890000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestFindSum threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestFindSum() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5389405d-9e4d-4b0a-ab1c-b292dd31f48e" testId="835fcf42-c4e4-0713-b849-4d5884b2279c" testName="TestCountRecentlyUpdated" computerName="MSSQLSERVER58" duration="00:00:00.0129591" startTime="2022-06-15T17:14:05.0060000+02:00" endTime="2022-06-15T17:14:05.0230000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestCountRecentlyUpdated threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Person.Addresults'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestCountRecentlyUpdated() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ae1f5fb6-2352-41a3-adcc-4215e44cadc4" testId="981f7e3c-0e0c-6662-a872-5d7bbe332f7e" testName="TestFindShortestString" computerName="MSSQLSERVER58" duration="00:00:00.0076692" startTime="2022-06-15T17:14:05.0300000+02:00" endTime="2022-06-15T17:14:05.0400000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestFindShortestString threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestFindShortestString() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 150
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b18e9be3-b12a-480c-b284-f7cf32d4008b" testId="9bd1e0b2-c78d-eb28-806b-12f4126d3b3f" testName="TestFindAvgValue" computerName="MSSQLSERVER58" duration="00:00:00.0072555" startTime="2022-06-15T17:14:05.0470000+02:00" endTime="2022-06-15T17:14:05.0580000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestFindAvgValue threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestFindAvgValue() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8cf73888-9c81-4644-88ca-5f5048aa728d" testId="be0d102a-7184-65d5-8dd2-de29921697e7" testName="TestConnectStrings" computerName="MSSQLSERVER58" duration="00:00:00.0081521" startTime="2022-06-15T17:14:05.0650000+02:00" endTime="2022-06-15T17:14:05.0760000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestConnectStrings threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestConnectStrings() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 188
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e53b135b-2c87-42ad-a9b4-e5d19e98a9f3" testId="bf9bd16e-399e-6b1a-dfb4-6c89b8067fb2" testName="TestCountUniqueStrings" computerName="MSSQLSERVER58" duration="00:00:00.0079768" startTime="2022-06-15T17:14:05.0830000+02:00" endTime="2022-06-15T17:14:05.0940000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestCountUniqueStrings threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Person.Addresults'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestCountUniqueStrings() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6cbda9df-d7eb-47a2-b957-3bf26b2789a6" testId="da3014c5-bc44-5694-2408-17998c5ad050" testName="TestFindMaxOccuranceString" computerName="MSSQLSERVER58" duration="00:00:00.0080646" startTime="2022-06-15T17:14:05.1020000+02:00" endTime="2022-06-15T17:14:05.1140000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestFindMaxOccuranceString threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Person.Addresults'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestFindMaxOccuranceString() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c613d766-1808-4f69-a66a-d179728dc796" testId="ea85e506-80c6-14a9-da2e-a9fc9df1208d" testName="TestFindOddEvenDiff" computerName="MSSQLSERVER58" duration="00:00:00.0084389" startTime="2022-06-15T17:14:05.1210000+02:00" endTime="2022-06-15T17:14:05.1320000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestFindOddEvenDiff threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestFindOddEvenDiff() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 175
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="381c6be6-6fda-4213-b54c-67df3c23d331" testId="ee47f47a-f3d6-5c50-424b-fbab9d085745" testName="TestFindSumIfEmpty" computerName="MSSQLSERVER58" duration="00:00:00.0074996" startTime="2022-06-15T17:14:05.1400000+02:00" endTime="2022-06-15T17:14:05.1500000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject.UnitTest1.TestFindSumIfEmpty threw exception:  System.Data.SqlClient.SqlException: Invalid object name 'Humanresultources.Employee'..</Message>
+          <StackTrace>    w System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   w System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   w System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   w System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   w System.Data.SqlClient.SqlDataReader.get_MetaData()
+   w System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   w System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   w System.Data.SqlClient.SqlCommand.ExecuteReader()
+   w TestProject.UnitTest1.TestFindSumIfEmpty() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

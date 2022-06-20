@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="16fa3872-7a63-4149-8fb8-78c2d44eeb06" name="Administrator@MSSQLSERVER58 2022-06-15 16:46:08" runUser="MSSQLSERVER58\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="670aac0b-44b4-4398-a232-e850c712cf4f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestResults\Administrator_MSSQLSERVER58 2022-06-15 16_46_08" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2022-06-15T16:46:08.8310000+02:00" queuing="2022-06-15T16:46:09.1150000+02:00" start="2022-06-15T16:46:09.2230000+02:00" finish="2022-06-15T16:46:09.7950000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestConnectStrings" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="be0d102a-7184-65d5-8dd2-de29921697e7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f28cc3a5-0b41-42e7-a6f3-c2e656ddbb85" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestConnectStrings" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="be0d102a-7184-65d5-8dd2-de29921697e7" executionId="f28cc3a5-0b41-42e7-a6f3-c2e656ddbb85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f28cc3a5-0b41-42e7-a6f3-c2e656ddbb85" testId="be0d102a-7184-65d5-8dd2-de29921697e7" testName="TestConnectStrings" computerName="MSSQLSERVER58" duration="00:00:00.1470248" startTime="2022-06-15T16:46:09.3230000+02:00" endTime="2022-06-15T16:46:09.6360000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;M;M;F;M;F;&gt;. Actual:&lt;M&gt;. </Message>
+          <StackTrace>   w TestProject.UnitTest1.TestConnectStrings() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 173
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

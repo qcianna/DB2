@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="922bbbbc-afcc-4dc4-9bbf-d26816b378a5" name="Administrator@MSSQLSERVER58 2022-06-15 17:29:42" runUser="MSSQLSERVER58\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="670aac0b-44b4-4398-a232-e850c712cf4f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestResults\Administrator_MSSQLSERVER58 2022-06-15 17_29_42" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2022-06-15T17:29:42.1270000+02:00" queuing="2022-06-15T17:29:42.4640000+02:00" start="2022-06-15T17:29:42.6310000+02:00" finish="2022-06-15T17:29:43.2790000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestFindShortestStringIfInt" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="b7f262bd-23d5-b2c5-b652-d8533d520990">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="afea1d7d-de7f-4dd4-a161-a85174530bec" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindShortestStringIfInt" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b7f262bd-23d5-b2c5-b652-d8533d520990" executionId="afea1d7d-de7f-4dd4-a161-a85174530bec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="afea1d7d-de7f-4dd4-a161-a85174530bec" testId="b7f262bd-23d5-b2c5-b652-d8533d520990" testName="TestFindShortestStringIfInt" computerName="MSSQLSERVER58" duration="00:00:00.2025239" startTime="2022-06-15T17:29:42.6880000+02:00" endTime="2022-06-15T17:29:43.0490000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   w TestProject.UnitTest1.TestFindShortestStringIfInt() w C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\UnitTest1.cs:wiersz 192
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa18293f-3c42-41c1-80fb-efdde4418443" name="Administrator@MSSQLSERVER58 2022-06-15 17:17:19" runUser="MSSQLSERVER58\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="670aac0b-44b4-4398-a232-e850c712cf4f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestResults\Administrator_MSSQLSERVER58 2022-06-15 17_17_19" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2022-06-15T17:17:19.5460000+02:00" queuing="2022-06-15T17:17:20.6310000+02:00" start="2022-06-15T17:17:21.4530000+02:00" finish="2022-06-15T17:17:22.7900000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCountRecentlyUpdated" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="835fcf42-c4e4-0713-b849-4d5884b2279c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="25942268-692e-49a4-b520-8f6ec01ac3b0" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestCountRecentlyUpdated" />
+    </UnitTest>
+    <UnitTest name="TestConnectStrings" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="be0d102a-7184-65d5-8dd2-de29921697e7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2eb5a929-fed5-47e4-a7fd-14b244000784" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestConnectStrings" />
+    </UnitTest>
+    <UnitTest name="TestCountAllOccurances" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="3009f19e-263e-27e0-d0c2-cd31a07902bb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e9471c39-d023-4418-9cfa-7fd91f73e6eb" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestCountAllOccurances" />
+    </UnitTest>
+    <UnitTest name="TestFindSum" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="42c2b0a6-af49-62cb-a464-8447e628eb45">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8316fb5b-617c-4058-a3ec-f1acdbe552c9" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindSum" />
+    </UnitTest>
+    <UnitTest name="TestFindMaxOccuranceString" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="da3014c5-bc44-5694-2408-17998c5ad050">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="29ecc13e-811e-4a87-b631-e82ada3bd6c2" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindMaxOccuranceString" />
+    </UnitTest>
+    <UnitTest name="TestCountUniqueStrings" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="bf9bd16e-399e-6b1a-dfb4-6c89b8067fb2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a183352f-e529-4510-b144-5235bfb8c6ae" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestCountUniqueStrings" />
+    </UnitTest>
+    <UnitTest name="TestFindSumIfEmpty" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="ee47f47a-f3d6-5c50-424b-fbab9d085745">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fa5d3542-e71c-4f4a-bb7f-efa6a8dbb7a5" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindSumIfEmpty" />
+    </UnitTest>
+    <UnitTest name="TestFindAvgValue" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="9bd1e0b2-c78d-eb28-806b-12f4126d3b3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dae105a0-85e4-42e2-9316-4134c8084c91" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindAvgValue" />
+    </UnitTest>
+    <UnitTest name="TestFindOddEvenDiff" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="ea85e506-80c6-14a9-da2e-a9fc9df1208d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fa550519-0bd9-472f-aa16-b9fa6e22f6b1" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindOddEvenDiff" />
+    </UnitTest>
+    <UnitTest name="TestFindShortestString" storage="c:\users\administrator\desktop\bd\projekt\testproject\testproject\bin\debug\testproject.dll" id="981f7e3c-0e0c-6662-a872-5d7bbe332f7e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9223c4f3-80f9-43d1-9910-bbffc14c9596" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BD\PROJEKT\TestProject\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.UnitTest1, TestProject" name="TestFindShortestString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="835fcf42-c4e4-0713-b849-4d5884b2279c" executionId="25942268-692e-49a4-b520-8f6ec01ac3b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da3014c5-bc44-5694-2408-17998c5ad050" executionId="29ecc13e-811e-4a87-b631-e82ada3bd6c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bd1e0b2-c78d-eb28-806b-12f4126d3b3f" executionId="dae105a0-85e4-42e2-9316-4134c8084c91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42c2b0a6-af49-62cb-a464-8447e628eb45" executionId="8316fb5b-617c-4058-a3ec-f1acdbe552c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3009f19e-263e-27e0-d0c2-cd31a07902bb" executionId="e9471c39-d023-4418-9cfa-7fd91f73e6eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="981f7e3c-0e0c-6662-a872-5d7bbe332f7e" executionId="9223c4f3-80f9-43d1-9910-bbffc14c9596" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf9bd16e-399e-6b1a-dfb4-6c89b8067fb2" executionId="a183352f-e529-4510-b144-5235bfb8c6ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea85e506-80c6-14a9-da2e-a9fc9df1208d" executionId="fa550519-0bd9-472f-aa16-b9fa6e22f6b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be0d102a-7184-65d5-8dd2-de29921697e7" executionId="2eb5a929-fed5-47e4-a7fd-14b244000784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee47f47a-f3d6-5c50-424b-fbab9d085745" executionId="fa5d3542-e71c-4f4a-bb7f-efa6a8dbb7a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="25942268-692e-49a4-b520-8f6ec01ac3b0" testId="835fcf42-c4e4-0713-b849-4d5884b2279c" testName="TestCountRecentlyUpdated" computerName="MSSQLSERVER58" duration="00:00:00.1398394" startTime="2022-06-15T17:17:21.6760000+02:00" endTime="2022-06-15T17:17:22.2340000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29ecc13e-811e-4a87-b631-e82ada3bd6c2" testId="da3014c5-bc44-5694-2408-17998c5ad050" testName="TestFindMaxOccuranceString" computerName="MSSQLSERVER58" duration="00:00:00.0161516" startTime="2022-06-15T17:17:22.2440000+02:00" endTime="2022-06-15T17:17:22.2680000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dae105a0-85e4-42e2-9316-4134c8084c91" testId="9bd1e0b2-c78d-eb28-806b-12f4126d3b3f" testName="TestFindAvgValue" computerName="MSSQLSERVER58" duration="00:00:00.0138778" startTime="2022-06-15T17:17:22.2770000+02:00" endTime="2022-06-15T17:17:22.2980000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8316fb5b-617c-4058-a3ec-f1acdbe552c9" testId="42c2b0a6-af49-62cb-a464-8447e628eb45" testName="TestFindSum" computerName="MSSQLSERVER58" duration="00:00:00.0153142" startTime="2022-06-15T17:17:22.3070000+02:00" endTime="2022-06-15T17:17:22.3310000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9471c39-d023-4418-9cfa-7fd91f73e6eb" testId="3009f19e-263e-27e0-d0c2-cd31a07902bb" testName="TestCountAllOccurances" computerName="MSSQLSERVER58" duration="00:00:00.0260395" startTime="2022-06-15T17:17:22.3380000+02:00" endTime="2022-06-15T17:17:22.3710000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9223c4f3-80f9-43d1-9910-bbffc14c9596" testId="981f7e3c-0e0c-6662-a872-5d7bbe332f7e" testName="TestFindShortestString" computerName="MSSQLSERVER58" duration="00:00:00.0140683" startTime="2022-06-15T17:17:22.3780000+02:00" endTime="2022-06-15T17:17:22.3990000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a183352f-e529-4510-b144-5235bfb8c6ae" testId="bf9bd16e-399e-6b1a-dfb4-6c89b8067fb2" testName="TestCountUniqueStrings" computerName="MSSQLSERVER58" duration="00:00:00.0132312" startTime="2022-06-15T17:17:22.4060000+02:00" endTime="2022-06-15T17:17:22.4270000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa550519-0bd9-472f-aa16-b9fa6e22f6b1" testId="ea85e506-80c6-14a9-da2e-a9fc9df1208d" testName="TestFindOddEvenDiff" computerName="MSSQLSERVER58" duration="00:00:00.0171366" startTime="2022-06-15T17:17:22.4340000+02:00" endTime="2022-06-15T17:17:22.4590000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2eb5a929-fed5-47e4-a7fd-14b244000784" testId="be0d102a-7184-65d5-8dd2-de29921697e7" testName="TestConnectStrings" computerName="MSSQLSERVER58" duration="00:00:00.0164379" startTime="2022-06-15T17:17:22.4660000+02:00" endTime="2022-06-15T17:17:22.4900000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa5d3542-e71c-4f4a-bb7f-efa6a8dbb7a5" testId="ee47f47a-f3d6-5c50-424b-fbab9d085745" testName="TestFindSumIfEmpty" computerName="MSSQLSERVER58" duration="00:00:00.0131103" startTime="2022-06-15T17:17:22.4970000+02:00" endTime="2022-06-15T17:17:22.5500000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
